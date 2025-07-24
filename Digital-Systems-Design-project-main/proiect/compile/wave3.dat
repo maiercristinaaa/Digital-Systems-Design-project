@@ -1,0 +1,49 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 up
+$IN 5 1 down
+$IN 9 1 clock
+$IN +4 1 Rst
+$IN +4 1 Adauga_cifru
+$OUT +4 1 bec_introdu
+$OUT +4 1 bec_liber
+I 2 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 45 2 4 nr1
+$SC 29-41/4
+$BUS S 62 2 4 nr2
+$SC 46-58/4
+$BUS S 79 2 4 nr3
+$SC 63-75/4
+$BUS S 96 2 4 nr4
+$SC 80-92/4
+$BUS S +21 2 4 nr5
+$SC 97-+12/4
+$BUS S +21 2 4 nr6
+$SC 114-+12/4
+$BUS S +21 2 4 nr_cifru
+$SC 131-+12/4
+$ENDTIME 1517486100000
+$WAVES 9
+=0 T 0
+R 1 30349722 =1 T 50k
+$VALUES
+R 2 15174861 0 1
+V 1
+0
+$END
+$WAVES 1 5 +8 +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES +4-41/4 +5-58/4 +5-75/4 +5-92/4 +5-+12/4 +5-+12/4 +5-+12/4
+*0
+=2 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$ENDWAVE

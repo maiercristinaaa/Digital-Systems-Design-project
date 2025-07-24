@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\proiect\library.cfg"  -j "c:\ProiectPSN\proiect\projlib.cfg"  -d "c:\ProiectPSN\proiect\compile\"  -work proiect -dbg -e 100 "c:\ProiectPSN\proiect\src\COUNTER.vhd"  "c:\ProiectPSN\proiect\src\SSD.vhd"  "c:\ProiectPSN\proiect\src\DEBOUNCER.vhd"  "c:\ProiectPSN\proiect\src\CIFRUD.vhd" 

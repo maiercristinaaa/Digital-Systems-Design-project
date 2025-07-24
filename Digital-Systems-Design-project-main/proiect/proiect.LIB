@@ -1,0 +1,52 @@
+timestamp=1653998597620
+
+[cifru_dulapd]
+A/cifru_dulapd=A/Cifru_DulapD 21|./src/CIFRUD.vhd|20|1*39596
+H/cifru_dulapd=0*62080
+R=./src/CIFRUD.vhd|4
+V=0*28312
+
+[counter]
+A/counter=21|./src/COUNTER.vhd|26|1*28457
+B/counter=3*11228
+H/counter=0*54134
+R=./src/COUNTER.vhd|5
+V=0*36129
+
+[debouncer]
+A/behavioral=A/Behavioral 21|./src/DEBOUNCER.vhd|13|1*37739
+B/behavioral=3*32482
+H/behavioral=0*60715
+R=./src/DEBOUNCER.vhd|6
+V=0*2174
+
+[ssd]
+A/behavioral=A/Behavioral 21|./src/SSD.vhd|24|1*33006
+B/behavioral=3*23020
+H/behavioral=0*57641
+R=./src/SSD.vhd|6
+V=0*8259
+
+[~A]
+./src/CIFRUD.vhd~Cifru_DulapD=0*13023*13462
+./src/CIFRUD.vhd~Cifru_DulapDCifru_DulapD=0*74189*75845
+./src/COUNTER.vhd~counter=0*30005*30751
+./src/COUNTER.vhd~countercounter=0*55360*57569
+./src/DEBOUNCER.vhd~BehavioralDebouncer=0*61558*62001
+./src/DEBOUNCER.vhd~Debouncer=0*0*295
+./src/SSD.vhd~BehavioralSSD=0*59030*60648
+./src/SSD.vhd~SSD=0*2529*3241
+ModifyID=55
+Version=73
+
+[~MFT]
+0=61|0proiect.mgf|75845|35638
+1=13|1proiect.mgf|39596|28457
+3=8|3proiect.mgf|32482|11228
+
+[~U]
+cifru_dulapd=Cifru_DulapD 11|0*27377|0*27722
+counter=11|0*34323|0*34848
+debouncer=Debouncer 11|0*1729|0*1890
+ssd=SSD 11|0*6372|0*6845
+

@@ -1,0 +1,9 @@
+55
+~E 1 "./src/COUNTER.vhd" 5 counter
+~A 1 "./src/COUNTER.vhd" 26 counter
+~E 1 "./src/CIFRUD.vhd" 4 cifru_dulapd
+~A 1 "./src/CIFRUD.vhd" 20 cifru_dulapd
+~E 1 "./src/DEBOUNCER.vhd" 6 debouncer
+~A 1 "./src/DEBOUNCER.vhd" 13 behavioral
+~E 1 "./src/SSD.vhd" 6 ssd
+~A 1 "./src/SSD.vhd" 24 behavioral

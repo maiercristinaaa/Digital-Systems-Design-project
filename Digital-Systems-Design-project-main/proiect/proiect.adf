@@ -1,0 +1,47 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=proiect
+
+[Library]
+proiect=.\proiect.lib
+
+[$LibMap$]
+proiect=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/COUNTER.vhd=-1
+/SSD.vhd=-1
+/DEBOUNCER.vhd=-1
+/CIFRUD.vhd=-1
+/Waveform Editor 2.awf=-1
+
+[Files.Data]
+.\src\COUNTER.vhd=VHDL Source Code
+.\src\SSD.vhd=VHDL Source Code
+.\src\DEBOUNCER.vhd=VHDL Source Code
+.\src\CIFRUD.vhd=VHDL Source Code
+.\src\Waveform Editor 2.awf=Waveform File
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=cifru_dulapd|cifru_dulapd|0     
+ShowHide=ShowTopLevel
+Selected=
